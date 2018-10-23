@@ -1,0 +1,48 @@
+h1{
+  font-weight: normal;
+  font-size: 30px;
+  font-family: 'Abril Fatface', sans-serif;
+}
+h2{
+  font-weight: normal;
+  font-size: 20px;
+}
+p{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+a{
+  font-size: 15px;
+}
+
+a#download{
+  padding: 10px 20px;
+  background-color: #26afb3;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  &:hover{
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+}
+
+a#discover{
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #323232;
+  box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.21);
+  transition: 0.25s;
+  &:hover{
+    background-color: rgba(255,255,255,0.4);
+  }
+}
+
+i{
+  color: black;
+}
+

@@ -1,0 +1,44 @@
+@import '_navbar.scss';
+@import '_fonts.scss';
+$fa-font-path: "/webfonts";
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
+@import 'home/_home.scss';
+@import 'form/_connect.scss';
+@import 'dashboard/_mainboard.scss';
+
+body{
+  font-family: 'Comfortaa', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+footer{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  color: #ededed;
+
+  & ul{
+    list-style:none;
+  }
+  & p{
+    font-size: 14px;
+    font-weight: lighter;
+  }
+}
+
+.describ_footer{
+  padding: 0.1em 3em;
+  width: 40%;
+}
+
+
+
+
+
+

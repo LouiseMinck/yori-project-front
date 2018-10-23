@@ -1,0 +1,30 @@
+#dash{
+  display: flex;
+  height: 100vh;
+
+  #bodyboard{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 12%;
+
+    background-image: url("/img/fond6.png");
+    background-size: cover;
+
+    width: 87vw;
+    height: 100%;
+
+    #dashboard{
+
+      padding-left: 9%;
+      padding-right: 9%;
+      padding-top: 5%;
+
+      background-color: rgba(255,255,255,0.93);
+      box-shadow: 0px 0px 40px rgba(0,0,0,0.4);
+
+      height: 90%;
+    }
+
+  }
+
+}

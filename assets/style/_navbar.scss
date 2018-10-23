@@ -1,0 +1,76 @@
+@import "buttons";
+#navhome{
+  position: absolute;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 15px;
+    padding-left: 15px;
+    list-style: none;
+    z-index: 1;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      transition: 0.1s;
+
+      :hover {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        transition: 0.2s;
+      }
+    }
+    .menu-right{
+      a{
+        color: #000;
+      }
+    }
+  }
+}
+
+#navboard{
+  height: 100%;
+  width: 13vw;
+
+  padding-left: 2em;
+  padding-top: 3em;
+  background-color: #323232;
+
+  h5{
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    border-bottom: #707070 1px solid;
+  }
+
+  ul{
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  li{
+    color: #EEEEEE;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+    list-style: none;
+    cursor: pointer;
+  }
+}
+

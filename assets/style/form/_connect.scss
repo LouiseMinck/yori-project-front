@@ -1,0 +1,123 @@
+
+main#connect{
+  background-image: linear-gradient(to bottom right, #26afb3, #7dec9d);
+  height: 100vh;
+
+  section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.05);
+
+    // Container du formulaire
+    article.form-container{
+      display: flex;
+      height: 60%;
+      width: 50%;
+
+      .form-img{
+        width: 40%;
+        background-image: url("/img/pot3.jpg");
+        background-size: cover;
+      }
+
+      form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        background-color: white;
+
+        header{
+          margin-bottom: 40px;
+        }
+        
+        .input-container-blc {
+          position: relative;
+          box-sizing: border-box;
+          display: block;
+          border: solid #ededed 1px;
+          font-family: sans-serif, "Font Awesome 5 Free";
+          padding-left: 25px;
+        }
+        .input-icon-email{
+          @extend %fa-icon;
+          @extend .fas;
+
+          &:before {
+            content: fa-content($fa-var-envelope);
+            color: #aaaaaa;
+          }
+        }
+        .input-icon-password{
+          @extend %fa-icon;
+          @extend .fas;
+
+          &:before {
+            content: fa-content($fa-var-key);
+            color: #aaaaaa;
+          }
+        }
+        .input-password{
+          padding: 15px 20px;
+          border: none;
+          &:focus{
+            outline: none;
+          }
+        }
+        .input-email{
+          padding: 15px 20px;
+          border: none;
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+
+      .form-btn-group{
+        margin: 2em;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .btn-secondary{
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+          background-image: linear-gradient(to bottom right, #26afb3, #75d3bb);
+          box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.12);
+          border-radius: 10px;
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+
+          transition: 0.2s;
+          &:hover{
+            box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.05);
+            transition: 0.3s;
+          }
+        }
+        .btn-register{
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+          background-color: white;
+          border-radius: 10px;
+          text-decoration: none;
+          color: #26afb3;
+          font-size: 14px;
+          box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.12);
+
+          transition: 0.2s;
+          &:hover{
+            box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.05);
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
