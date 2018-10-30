@@ -1,0 +1,42 @@
+.data_block{
+
+  section.data{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    border: 4px #ededed solid;
+    border-radius: 20px;
+    width: 65%;
+    margin-bottom: 35px;
+
+    #data_circle{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 100px;
+      width: 100px;
+      text-align: center;
+      border-radius: 100px;
+      border: white 4px solid;
+      background-color: white;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+
+      margin-right: 3%;
+
+      h2{
+        padding-top: 5px;
+      }
+    }
+    #data_circle.red{
+      border: #e18880 4px solid;
+    }
+    #data_circle.blue{
+      border: #61a1ca 4px solid;
+    }
+    #data_circle.green{
+      border: lightgreen 4px solid;
+    }
+
+  }
+}

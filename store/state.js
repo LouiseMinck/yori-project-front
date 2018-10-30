@@ -1,5 +1,6 @@
 export default {
   plantData: {},
   error: "",
-  token: null
+  token: null,
+  hasplant: Boolean
 };

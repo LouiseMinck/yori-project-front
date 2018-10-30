@@ -1,16 +1,20 @@
+@import '_datablock.scss';
+
 #dash{
   display: flex;
   height: 100vh;
 
   #bodyboard{
+    margin-left: 260px;
+
     padding-top: 5%;
     padding-left: 10%;
-    padding-right: 12%;
+    padding-right: 10%;
 
     background-image: url("/img/fond6.png");
     background-size: cover;
 
-    width: 87vw;
+    width: 100%;
     height: 100%;
 
     #dashboard{
@@ -19,10 +23,14 @@
       padding-right: 9%;
       padding-top: 5%;
 
-      background-color: rgba(255,255,255,0.93);
-      box-shadow: 0px 0px 40px rgba(0,0,0,0.4);
+      background-color: rgba(255,255,255,0.97);
+      box-shadow: 0 0 40px rgba(0,0,0,0.4);
 
-      height: 90%;
+      height: 85%;
+
+      h1{
+        margin-bottom: 50px;
+      }
     }
 
   }

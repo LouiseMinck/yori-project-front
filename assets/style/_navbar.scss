@@ -43,9 +43,12 @@
 
 #navboard{
   height: 100%;
-  width: 13vw;
+  width: 230px;
+
+  position: fixed;
 
   padding-left: 2em;
+  padding-right: 30px;
   padding-top: 3em;
   background-color: #323232;
 
@@ -71,6 +74,10 @@
     font-weight: lighter;
     list-style: none;
     cursor: pointer;
+
+    a{
+      color: #EEEEEE;
+    }
   }
 }
 

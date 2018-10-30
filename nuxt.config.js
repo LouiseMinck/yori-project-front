@@ -1,7 +1,12 @@
 module.exports = {
+
   mode: "universal",
   css: [
     '@/assets/style/main.scss'
+  ],
+
+  plugins: [
+    { src: '~components/Chart.vue', ssr: false },
   ],
 
   link: [
@@ -34,6 +39,8 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    vendor: ['axios'],
+
     extend (config, { isDev }) {
       if (isDev && process.client) {
         config.module.rules.push({

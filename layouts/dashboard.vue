@@ -10,7 +10,7 @@
   import Nav from '../components/dashboard/DashNav';
 
   export default {
-      name: "dashnav",
+      name: "dashboard",
 
       mounted () {
         this.$nextTick(() => {

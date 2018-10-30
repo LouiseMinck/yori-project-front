@@ -2,9 +2,34 @@
   border-radius: 50px;
   background-color: white;
   color: #222222;
-  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
   &:hover {
     background-color: rgba(255, 255, 255, 0.7);
     transition: 0.3s;
   }
+}
+
+.deconnect {
+  padding: 10px 12px;
+  cursor: pointer;
+  background-color: #323232;
+  border: 1px #ededed solid;
+  color: #ededed;
+  &:hover{
+    background-color: #ededed;
+    color: #323232;
+  }
+}
+.retour{
+  padding: 10px 12px;
+  background-color: #555555;
+  color: white;
+  &:hover{
+    background-color: #444444;
+  }
+}
+
+.spacebtn{
+  height: 30px;
 }
