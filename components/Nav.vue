@@ -8,7 +8,7 @@
         </div>
         <div class="menu-right">
           <a v-if="$store.state.token" class="btn" href="/DashHome">Votre dashBoard</a>
-          <a v-else class="btn" href="/connexion">Se connecter</a>
+          <a v-else class="btn" href="/connexion">Se connecter / S'enregistrer</a>
         </div>
       </div>
     </nav>

@@ -2,8 +2,8 @@
     <div id="couverture">
       <aside>
         <section>
-          <h2>Nisi ut aliquip</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h2>Vous êtes équipés de Yori ?</h2>
+          <p>Téléchargez dès maintenant l’application sur la plateforme de votre choix !</p>
           <a href="#" id="download">Android</a>
           <a href="#" id="download">iOS</a>
         </section>
