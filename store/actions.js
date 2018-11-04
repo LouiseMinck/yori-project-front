@@ -110,6 +110,9 @@ export default {
           Cookie.set('token', response.data.token);
           $nuxt.$router.push('/DashHome');
         }
+      })
+      .catch(function (error) {
+        commit("saveError", error.response.data.errors) // Envoi de l'erreur à la mutation saveError
       });
   }
 }

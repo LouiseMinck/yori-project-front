@@ -13,10 +13,9 @@
       <li><a href="/DataDay">24 Heures</a></li>
     </ul>
 
-    <h5>Settings</h5>
     <a v-if="$store.state.token" class="btn deconnect" @click="logout()">Se déconnecter</a>
     <div class="spacebtn"></div>
-    <a href="/" class="btn retour" >Retournez au site</a>
+    <a href="/" class="btn retour">Retournez au site</a>
 
   </nav>
 </template>

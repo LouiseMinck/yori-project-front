@@ -6,7 +6,7 @@
       <a href="#" id="discover">Découvrir</a>
     </article>
     <aside id="head">
-      <img id="imgbonsai" src="/img/trans2.png" height="90%"/>
+      <img id="imgbonsai" src="/img/trans2.png" height="92%"/>
     </aside>
   </header>
 </template>

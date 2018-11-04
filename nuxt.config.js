@@ -10,8 +10,8 @@ module.exports = {
   ],
 
   link: [
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Comfortaa'},
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Abril+Fatface'}
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins'},
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Montserrat'},
   ],
 
   /*

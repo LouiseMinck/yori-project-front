@@ -7,7 +7,6 @@
         <form>
           <header>
             <h1>Connexion</h1>
-            <p>This border is used to show that the element is focused</p>
           </header>
 
           <div class="input-container-blc input-icon-email">
