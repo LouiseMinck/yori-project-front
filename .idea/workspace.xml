@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3caad2da-0049-46a0-bd3b-b960fabbc360" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/pages/Oubli.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/reinitialisation/_resettoken.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -24,6 +25,12 @@
       <change beforePath="$PROJECT_DIR$/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/getters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/mutations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/state.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/api.js" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,11 +131,87 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-313791440">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="29" />
+          <entry key="json" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="29" />
+          <entry key="JavaScript" value="29" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1858752338">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/dashboard/DashNav.vue">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding>
+                <element signature="e#157#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Nav.vue">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
@@ -163,6 +246,7 @@
       <find>console</find>
       <find>plantdata</find>
       <find>path</find>
+      <find>port</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,6 +255,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/layouts/dashnav.vue" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/plugins/gauge..js" />
         <option value="$PROJECT_DIR$/plugins/gauge.js" />
         <option value="$PROJECT_DIR$/components/gauge/canvas.vue" />
@@ -184,7 +272,11 @@
         <option value="$PROJECT_DIR$/components/data/Datas.vue" />
         <option value="$PROJECT_DIR$/components/data/Data.vue" />
         <option value="$PROJECT_DIR$/components/data/DataBlock.vue" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/store/api.js" />
+=======
+        <option value="$PROJECT_DIR$/assets/style/dashboard/_datablock.scss" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/components/data/DataCircle.vue" />
         <option value="$PROJECT_DIR$/components/plugins/vue-chartjs.js" />
         <option value="$PROJECT_DIR$/components/CommitChart.vue" />
@@ -197,6 +289,11 @@
         <option value="$PROJECT_DIR$/middleware/plant.js" />
         <option value="$PROJECT_DIR$/pages/DashHome.vue" />
         <option value="$PROJECT_DIR$/pages/Noplant.vue" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/assets/style/form/_connect.scss" />
+        <option value="$PROJECT_DIR$/components/connexion/ConnexionForm.vue" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/components/inscription/InscriptionForm.vue" />
         <option value="$PROJECT_DIR$/nuxt.config.js" />
         <option value="$PROJECT_DIR$/assets/style/main.scss" />
@@ -205,6 +302,7 @@
         <option value="$PROJECT_DIR$/components/home/Services.vue" />
         <option value="$PROJECT_DIR$/components/home/Box_couverture.vue" />
         <option value="$PROJECT_DIR$/components/Nav.vue" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/assets/style/form/_connect.scss" />
         <option value="$PROJECT_DIR$/assets/style/home/_home.scss" />
         <option value="$PROJECT_DIR$/components/home/Box.vue" />
@@ -222,6 +320,11 @@
         <option value="$PROJECT_DIR$/assets/style/_navbar.scss" />
         <option value="$PROJECT_DIR$/components/home/Header_home.vue" />
         <option value="$PROJECT_DIR$/components/dashboard/DashNav.vue" />
+=======
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/store/api.js" />
+        <option value="$PROJECT_DIR$/store/actions.js" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -242,9 +345,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1422" />
-    <option name="height" value="1047" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -254,10 +357,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
+<<<<<<< Updated upstream
               <item name="yori_project_front" type="b2602c69:ProjectViewProjectNode" />
               <item name="yori_project_front" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -265,6 +370,10 @@
               <item name="yori_project_front" type="b2602c69:ProjectViewProjectNode" />
               <item name="yori_project_front" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="yori-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yori-front" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="yori_project_front" type="b2602c69:ProjectViewProjectNode" />
@@ -276,7 +385,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,7 +429,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -370,9 +478,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.generate" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -402,14 +510,24 @@
       <workItem from="1540896354120" duration="599000" />
       <workItem from="1541325769057" duration="8027000" />
       <workItem from="1541348987336" duration="1299000" />
+<<<<<<< Updated upstream
       <workItem from="1541350470509" duration="608000" />
       <workItem from="1541756567593" duration="37000" />
       <workItem from="1541756620280" duration="11545000" />
+=======
+      <workItem from="1542032908872" duration="559000" />
+      <workItem from="1542033756743" duration="1000" />
+      <workItem from="1542141529843" duration="88000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="212368000" />
+=======
+    <option name="totallyTimeSpent" value="200826000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,16 +539,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.14278187" />
+=======
+    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.1430585" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.09641728" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.156013" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.5980663" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50052685" side_tool="true" weight="0.3672806" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -438,7 +566,7 @@
       <window_info anchor="bottom" id="Find" order="7" weight="0.18418202" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16468039" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16340782" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,6 +579,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/components/dashboard/DashFooter.vue" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/plugins/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -465,6 +597,7 @@
     <entry file="file://$PROJECT_DIR$/node_modules/svg-gauge/src/gauge.js" />
     <entry file="file://$PROJECT_DIR$/components/gauge/gauge.vue" />
     <entry file="file://$PROJECT_DIR$/plugins/svg-gauge.js" />
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/components/data/DataCircle.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
@@ -474,6 +607,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/plugins/vue-chartjs.js" />
     <entry file="file://$PROJECT_DIR$/layouts/default.vue">
+=======
+    <entry file="file://$PROJECT_DIR$/components/data/DataBlock.vue">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
@@ -534,8 +670,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="24">
           <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+=======
+        <state relative-caret-position="288">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="16" selection-end-column="41" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -609,6 +750,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/pages/Inscription.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -617,6 +759,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/store/getters.js">
+=======
+    <entry file="file://$PROJECT_DIR$/assets/style/form/_connect.scss">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
@@ -672,6 +817,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/store/api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -680,6 +826,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/inscription/InscriptionForm.vue">
+=======
+    <entry file="file://$PROJECT_DIR$/assets/style/_fonts.scss">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1104">
           <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
@@ -735,6 +884,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/store/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -756,6 +919,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
