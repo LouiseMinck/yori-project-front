@@ -2,9 +2,6 @@
   <nav id="navboard">
 
     <a href="/DashHome"><h5>Accueil</h5></a>
-    <ul class="navboard">
-      <li>Votre plante</li>
-    </ul>
 
     <h5>Suivi</h5>
     <ul class="navboard">

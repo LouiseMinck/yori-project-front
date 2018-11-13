@@ -2,5 +2,6 @@ export default {
   plantData: {},
   error: "",
   token: null,
-  hasplant: Boolean
+  hasplant: Boolean,
+  successMessage: ""
 };

@@ -25,7 +25,7 @@
 
     <div class="box">
       <div class="present">
-        <img src="/img/mockup.png" height="900px" style="margin-left: -200px;"/>
+        <img src="/img/mockup.png" height="700px" style="margin-left: -200px;"/>
         <section class="mockup boxright">
           <h1 style="text-align: left;">Adoptez Yori</h1>
           <aside>

@@ -19,5 +19,14 @@ export default {
   },
   removePlant(state){
     state.hasplant = null;
+  },
+  setSuccessMessage(state, message) {
+    state.successMessage = message;
+  },
+
+  cleanState(state){
+    state.error = null;
+    state.successMessage = null;
   }
+
 }

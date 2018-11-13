@@ -10,5 +10,8 @@ export default {
   },
   token(state) {
     return state.token;
+  },
+  successMessage(state) {
+    return state.successMessage;
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <header id="home">
     <article id="title">
-        <h1>Yori</h1>
+        <img src="img/logowhite.png" height="100px"/>
         <p>S’occuper de son bonsaï n’a jamais été aussi simple ! Grâce à Yori, devenez attentif aux besoins de votre arbre.
         </p>
       <a href="#" id="discover">Découvrir</a>

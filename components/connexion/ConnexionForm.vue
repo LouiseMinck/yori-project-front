@@ -19,6 +19,7 @@
             <input class="btn-secondary" type="submit" value="Se connecter" @click.prevent="connect()"/>
             <nuxt-link class="btn-register" to="/inscription">S'enregistrer</nuxt-link>
           </div>
+          <nuxt-link to="/oubli">Mot de passe oublié ?</nuxt-link>
           <p v-if="error">{{ error }}</p>
         </form>
 

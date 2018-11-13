@@ -50,14 +50,14 @@
   padding-left: 2em;
   padding-right: 30px;
   padding-top: 3em;
-  background-color: #323232;
+  background-color: #26afb3;
 
   h5{
-    color: #CCCCCC;
+    color: white;
     font-size: 18px;
     font-weight: normal;
     padding-bottom: 20px;
-    border-bottom: #707070 1px solid;
+    border-bottom: white 2px solid;
   }
 
   ul{
@@ -67,16 +67,15 @@
   }
 
   li{
-    color: #EEEEEE;
+    color: white;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 16px;
-    font-weight: lighter;
     list-style: none;
     cursor: pointer;
 
     a{
-      color: #EEEEEE;
+      color: white;
     }
   }
 }

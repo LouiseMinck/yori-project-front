@@ -11,7 +11,7 @@
     padding-left: 10%;
     padding-right: 10%;
 
-    background-image: url("/img/fond6.png");
+    background-color: white;
     background-size: cover;
 
     width: 100%;
@@ -27,6 +27,7 @@
       box-shadow: 0 0 40px rgba(0,0,0,0.4);
 
       height: 85%;
+      border-radius: 15px;
 
       h1{
         margin-bottom: 50px;
