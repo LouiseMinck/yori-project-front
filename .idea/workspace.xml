@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3caad2da-0049-46a0-bd3b-b960fabbc360" name="Default Changelist" comment="">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/pages/Oubli.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pages/reinitialisation/_resettoken.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -31,6 +32,9 @@
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/api.js" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,16 +49,17 @@
     <session id="1362831237">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +86,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="17" />
+          <entry key="ESLintLanguageService" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -345,9 +350,16 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< Updated upstream
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
+=======
+    <option name="x" value="475" />
+    <option name="y" value="50" />
+    <option name="width" value="1422" />
+    <option name="height" value="1047" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -390,7 +402,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="muta&#9;FILE&#9;file://D:/DEV/yori_project_front/store/mutations.js&#10;get&#9;FILE&#9;file://D:/DEV/yori_project_front/store/getters.js&#10;mut&#9;FILE&#9;file://D:/DEV/yori_project_front/store/mutations.js&#10;sta&#9;FILE&#9;file://D:/DEV/yori_project_front/store/state.js&#10;action&#9;FILE&#9;file://D:/DEV/yori_project_front/store/actions.js&#10;en&#9;FILE&#9;file://D:/DEV/yori_project_front/store/endpoints.js&#10;actions&#9;FILE&#9;file://D:/DEV/yori_project_front/store/actions.js&#10;mutat&#9;FILE&#9;file://D:/DEV/yori_project_front/store/mutations.js&#10;Gauge&#9;FILE&#9;file://D:/DEV/yori_project_front/components/gauge/Gauge.vue&#10;gette&#9;FILE&#9;file://D:/DEV/yori_project_front/store/getters.js&#10;nav&#9;FILE&#9;file://D:/DEV/yori_project_front/components/Nav.vue&#10;defa&#9;FILE&#9;file://D:/DEV/yori_project_front/layouts/default.vue&#10;index&#9;FILE&#9;file://D:/DEV/yori_project_front/pages/index.vue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactnative/nomdemonprojet" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -514,19 +526,28 @@
       <workItem from="1541350470509" duration="608000" />
       <workItem from="1541756567593" duration="37000" />
       <workItem from="1541756620280" duration="11545000" />
+<<<<<<< Updated upstream
 =======
       <workItem from="1542032908872" duration="559000" />
       <workItem from="1542033756743" duration="1000" />
       <workItem from="1542141529843" duration="88000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1542476908954" duration="563000" />
+      <workItem from="1542477675578" duration="30000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="212368000" />
 =======
     <option name="totallyTimeSpent" value="200826000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="212961000" />
 >>>>>>> Stashed changes
   </component>
   <component name="TodoView">
@@ -541,7 +562,6 @@
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.14278187" />
 =======
@@ -902,9 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding>
-            <element signature="e#157#209#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
