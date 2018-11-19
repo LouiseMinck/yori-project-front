@@ -18,7 +18,11 @@
       name: "DashNav",
       methods: {
         logout(){
-          this.$store.dispatch("disconnect")
+          this.$cookies.remove('token');
+          this.$cookies.remove('hasplant');
+          this.$store.commit('removeToken');
+          this.$store.commit('removePlant');
+          this.$router.push('/');
         }
       }
     }

@@ -25,8 +25,8 @@ export default {
   name: "DashHome",
   layout: 'dashboard',
   middleware: ['authenticated', 'plant'],
-  async fetch ({ store, params }) { //Charge les données avant le chargement de la page
-      await store.dispatch('getPlantData');
+  async fetch ({ store, params, app, redirect }) { //Charge les données avant le chargement de la page
+      await store.dispatch('getPlantData', {app, redirect});
   },
   computed: {
     plantData () {

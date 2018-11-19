@@ -5,6 +5,10 @@ module.exports = {
     '@/assets/style/main.scss'
   ],
 
+  modules: [
+    'cookie-universal-nuxt'
+  ],
+
   plugins: [
     { src: '~components/Chart.vue', ssr: false },
   ],

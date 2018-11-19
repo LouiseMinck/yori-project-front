@@ -16,16 +16,8 @@
 </template>
 
 <script>
-  const Cookie = process.client ? require('js-cookie') : undefined;
     export default {
-      name: "Nav",
-      methods: {
-        logout(){
-          Cookie.remove('token');
-          this.$store.commit('removeToken');
-          this.$router.push('/');
-        }
-      }
+      name: "Nav"
     }
 </script>
 

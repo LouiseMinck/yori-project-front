@@ -1,21 +1,12 @@
 import axiosi from "./api";
 import endpoints from "./endpoints";
-import qs from "qs";
 
 const Cookie = process.client ? require('js-cookie') : undefined;
 const cookieparser = process.server ? require('cookieparser') : undefined;
 
 export default {
 
-   disconnect({commit}){
-    if(process.client){
-      console.log("client")
-    } else {
-      console.log("serveur")
-    }
-  },
-
-  nuxtServerInit({ commit }, { req }) {
+  nuxtServerInit({ commit }, { req, res, app }) {
     let auth = null;
     let hasplant = null;
     if (req.headers.cookie) {
@@ -29,21 +20,18 @@ export default {
 
   //---------------------Recupération des données---------------------//
 
-  async getPlantData({commit, dispatch}) {
+  async getPlantData({commit, dispatch, app}, ctx) {
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.now)
       .then(function (response) {
         commit("plantData", response.data);
-        if(Cookie){
-          console.log("cookieok")
-        }
-        else{
-          console.log("pascookie")
-        }
       })
       .catch(function (error) {
         console.log(error.response);
         if(!error.response.data.auth){
+          ctx.app.$cookies.remove('token');
+          ctx.app.$cookies.remove('hasplant');
+          ctx.redirect('/connexion')
         }
     });
     axiosi.defaults.headers.common['x-access-token'] = null;
@@ -51,7 +39,7 @@ export default {
 
   // Données sur une semaine
 
-  async getPlantDataWeek({commit, dispatch}) {
+  async getPlantDataWeek({commit, dispatch}, ctx) {
     this.state.plantData = null;
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.week)
@@ -61,7 +49,9 @@ export default {
       .catch(function (error) {
         console.log(error.response);
         if(!error.response.data.auth){
-          dispatch("disconnect");
+          ctx.app.$cookies.remove('token');
+          ctx.app.$cookies.remove('hasplant');
+          ctx.redirect('/connexion')
         }
       });
     axiosi.defaults.headers.common['x-access-token'] = null;
@@ -69,7 +59,7 @@ export default {
 
   // Données sur 3 jours
 
-  async getPlantDataThreeDays({commit, dispatch}) {
+  async getPlantDataThreeDays({commit, dispatch}, ctx) {
     this.state.plantData = null;
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.threeday)
@@ -79,7 +69,9 @@ export default {
       .catch(function (error) {
         console.log(error.response);
         if(!error.response.data.auth){
-          dispatch("disconnect");
+          ctx.app.$cookies.remove('token');
+          ctx.app.$cookies.remove('hasplant');
+          ctx.redirect('/connexion')
         }
       });
     axiosi.defaults.headers.common['x-access-token'] = null;
@@ -87,7 +79,7 @@ export default {
 
   // Données sur 1 jour
 
-  async getPlantDataDay({commit, dispatch}) {
+  async getPlantDataDay({commit, dispatch}, ctx) {
     this.state.plantData = null;
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.oneday)
@@ -96,9 +88,9 @@ export default {
       })
       .catch(function (error) {
         console.log(error.response);
-        if(!error.response.data.auth){
-
-        }
+        ctx.app.$cookies.remove('token');
+        ctx.app.$cookies.remove('hasplant');
+        ctx.redirect('/connexion')
       });
     axiosi.defaults.headers.common['x-access-token'] = null;
   },
