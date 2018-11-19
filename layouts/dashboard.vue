@@ -25,6 +25,6 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="sass">
+  @import "../assets/style/dashboard/mainboard";
 </style>

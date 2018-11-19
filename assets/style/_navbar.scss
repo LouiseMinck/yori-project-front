@@ -42,39 +42,29 @@
 }
 
 #navboard{
+
   height: 100%;
-  width: 230px;
+  width: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
   padding-left: 2em;
-  padding-right: 30px;
-  padding-top: 3em;
-  background-color: #26afb3;
+  padding-right: 2em;
+  background-color: #98D163;
 
-  h5{
-    color: white;
-    font-size: 18px;
-    font-weight: normal;
-    padding-bottom: 20px;
-    border-bottom: white 1px solid;
-  }
-
-  ul{
-    padding-left: 0;
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
-
-  li{
-    color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 16px;
-    list-style: none;
-    cursor: pointer;
-
+  div.end{
+    align-self: flex-end;
     a{
-      color: white;
+      padding:10px;
     }
+  }
+
+  a.logo{
+    padding-top: 10px;
   }
 }
 

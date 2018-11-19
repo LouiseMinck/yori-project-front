@@ -1,6 +1,7 @@
 @import "datablock";
 body{
-  background-color: #26afb3;
+  background-color: white;
+  height: 100vh;
 }
 #dash{
   display: flex;
@@ -9,11 +10,10 @@ body{
 
   #bodyboard{
     flex: 1;
-    margin-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
 
-    background-color: #26afb3;
+    background-color: white;
 
     #dashboard{
 

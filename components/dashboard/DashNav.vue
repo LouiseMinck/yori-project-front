@@ -1,38 +1,25 @@
 <template>
   <nav id="navboard">
-
-    <a href="/DashHome"><h5>Accueil</h5></a>
-
-    <h5>Suivi</h5>
-    <ul class="navboard">
-      <li><a href="/DataWeek">7 Jours</a></li>
-      <li><a href="/DataThreeDays">3 Jours</a></li>
-      <li><a href="/DataDay">24 Heures</a></li>
-    </ul>
-
-    <a v-if="$store.state.token" class="btn deconnect" @click="logout()">Se déconnecter</a>
-    <div class="spacebtn"></div>
-    <a href="/" class="btn retour">Retournez au site</a>
+    <a href="Home" class="logo"><img src="/img/faviconwhite.png" height="50px"/></a>
+    <a href="DashData"><img src="/img/icon_suivi2.png" height="40px"/></a>
+    <a href="DataDay"><img src="/img/icon_suivi1.png" height="40px"/></a>
+    <a href="DashData"><img src="/img/icon_suivi3.png" height="40px"/></a>
+    <div class="end">
+      <a v-if="$store.state.token" @click="logout()"><img src="/img/icon_suivi5.png" height="30px"/></a>
+      <a href="/"><img src="/img/icon_suivi4.png" height="30px"/></a>
+    </div>
 
   </nav>
 </template>
 
 <script>
-  const Cookie = process.client ? require('js-cookie') : undefined;
+  //const Cookie = process.client ? require('js-cookie') : undefined;
     export default {
-        name: "DashNav",
+      name: "DashNav",
       methods: {
         logout(){
-          Cookie.remove('token');
-          Cookie.remove('hasplant');
-          this.$store.commit('removeToken');
-          this.$store.commit('removePlant');
-          this.$router.push('/');
+          this.$store.dispatch("disconnect")
         }
       }
     }
 </script>
-
-<style scoped>
-
-</style>

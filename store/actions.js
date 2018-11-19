@@ -7,6 +7,14 @@ const cookieparser = process.server ? require('cookieparser') : undefined;
 
 export default {
 
+   disconnect({commit}){
+    if(process.client){
+      console.log("client")
+    } else {
+      console.log("serveur")
+    }
+  },
+
   nuxtServerInit({ commit }, { req }) {
     let auth = null;
     let hasplant = null;
@@ -21,21 +29,29 @@ export default {
 
   //---------------------Recupération des données---------------------//
 
-  async getPlantData({commit}) {
+  async getPlantData({commit, dispatch}) {
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.now)
       .then(function (response) {
         commit("plantData", response.data);
+        if(Cookie){
+          console.log("cookieok")
+        }
+        else{
+          console.log("pascookie")
+        }
       })
       .catch(function (error) {
-        console.log(error.response)
+        console.log(error.response);
+        if(!error.response.data.auth){
+        }
     });
     axiosi.defaults.headers.common['x-access-token'] = null;
   },
 
   // Données sur une semaine
 
-  async getPlantDataWeek({commit}) {
+  async getPlantDataWeek({commit, dispatch}) {
     this.state.plantData = null;
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.week)
@@ -43,14 +59,17 @@ export default {
         commit("plantData", response.data);
       })
       .catch(function (error) {
-        console.log(error.response)
+        console.log(error.response);
+        if(!error.response.data.auth){
+          dispatch("disconnect");
+        }
       });
     axiosi.defaults.headers.common['x-access-token'] = null;
   },
 
   // Données sur 3 jours
 
-  async getPlantDataThreeDays({commit}) {
+  async getPlantDataThreeDays({commit, dispatch}) {
     this.state.plantData = null;
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.threeday)
@@ -58,14 +77,17 @@ export default {
         commit("plantData", response.data);
       })
       .catch(function (error) {
-        console.log(error.response)
+        console.log(error.response);
+        if(!error.response.data.auth){
+          dispatch("disconnect");
+        }
       });
     axiosi.defaults.headers.common['x-access-token'] = null;
   },
 
   // Données sur 1 jour
 
-  async getPlantDataDay({commit}) {
+  async getPlantDataDay({commit, dispatch}) {
     this.state.plantData = null;
     axiosi.defaults.headers.common['x-access-token'] = this.state.token;
     await axiosi.get(endpoints.oneday)
@@ -73,7 +95,10 @@ export default {
         commit("plantData", response.data);
       })
       .catch(function (error) {
-        console.log(error.response)
+        console.log(error.response);
+        if(!error.response.data.auth){
+
+        }
       });
     axiosi.defaults.headers.common['x-access-token'] = null;
   },
@@ -82,7 +107,7 @@ export default {
 
   async connectUser({commit}, payload) {
     await axiosi.post(endpoints.auth, {email: payload.mail, password: payload.password})
-      .then(function (response) {
+          .then(function (response) {
         if (response.data.auth) {
           commit("setToken", response.data.token);
           Cookie.set('token', response.data.token);
@@ -91,7 +116,7 @@ export default {
         if (response.data.hasplant) {
           commit("hasplant", "true");
           Cookie.set('hasplant', "true");
-          $nuxt.$router.push('/DashHome');
+          $nuxt.$router.push('/Dashboard/Home');
         }
       })
       .catch(function (error) {
@@ -107,7 +132,7 @@ export default {
         if (response.data.auth) {
           commit("setToken", response.data.token);
           Cookie.set('token', response.data.token);
-          $nuxt.$router.push('/DashHome');
+          $nuxt.$router.push('/Dashboard/Home');
         }
       })
       .catch(function (error) {
@@ -146,5 +171,7 @@ export default {
         commit("saveError", error.response.data.message) // Envoi de l'erreur à la mutation saveError
       });
     axiosi.defaults.headers.common['x-reset-token'] = null;
-  }
+  },
+
+
 }
