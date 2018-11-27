@@ -2,6 +2,8 @@
 body{
   background-color: white;
   height: 100vh;
+
+  color: #707070;
 }
 #dash{
   display: flex;
@@ -10,28 +12,58 @@ body{
 
   #bodyboard{
     flex: 1;
-    padding-left: 10%;
-    padding-right: 10%;
-
     background-color: white;
+
+    #dashhome{
+      display: flex;
+      height: 100%;
+
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #dashconseils{
+      display: flex;
+      height: 100%;
+
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      padding-left: 15%;
+      padding-right: 15%;
+      overflow: scroll;
+      position: fixed;
+    }
 
     #dashboard{
 
-      padding-left: 9%;
-      padding-right: 9%;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      margin-bottom: 3%;
+        display: flex;
+        height: 100%;
 
-      background-color: rgba(255,255,255,0.97);
-      box-shadow: 0 0 40px rgba(0,0,0,0.4);
-      border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-      h1{
-        margin-bottom: 50px;
+        background-image: url("/img/background-data.png");
+        background-size: contain;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+
+      #planet-chart{
+        height: 500px;
       }
+
+      #databox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        margin-bottom: 100px;
+      }
+
     }
-
   }
-
 }

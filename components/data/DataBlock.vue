@@ -1,11 +1,9 @@
 <template>
   <div class="data_block">
       <section class="data">
+        <h2>{{info.title}}</h2>
         <data-circle :infos="info"></data-circle>
-        <div>
-          <h2>{{info.title}}</h2>
           <p>{{info.content}}{{info.min}} et {{info.max}}{{info.unite}}</p>
-        </div>
       </section>
   </div>
 </template>

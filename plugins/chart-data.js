@@ -9,28 +9,28 @@ export const ChartData = {
         label: 'PH',
         data: [],
         backgroundColor: [
-          'rgb(18,169,122)',
+          'rgb(152,209,99)',
         ],
-        borderColor: ['#555555'],
-        borderWidth: 2
+        borderColor: ['#888888'],
+        borderWidth: 0.2
       },
       { // one line graph
         label: 'Température °C',
         data: [],
         backgroundColor: [
-          'rgb(103,238,195)',
+          'rgba(152,209,99,0.7)',
         ],
-        borderColor: ['#666666'],
-        borderWidth: 2
+        borderColor: ['#888888'],
+        borderWidth: 0.2
       },
       { // another line graph
         label: 'Humidité %',
         data: [],
         backgroundColor: [
-          'rgb(195,248,231)',
+          'rgba(152,209,99,0.4)',
         ],
-        borderColor: ['#666666'],
-        borderWidth: 2
+        borderColor: ['#888888'],
+        borderWidth: 0.2
       },
     ]
   },

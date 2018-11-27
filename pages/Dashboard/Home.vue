@@ -1,21 +1,19 @@
 <template>
   <div id="bodyboard">
-      <h1>Bonjour !</h1>
-      <a href="DashData" class="btn retour">Acceder au suivi</a>
-      <a href="DashData" class="btn retour">Nos conseils</a>
+    <div id="dashhome">
+      <h1>Bonjour Logan!</h1>
+      <a href="DashData" class="btn home">Acceder au suivi</a>
+      <a href="DashData" class="btn home outline">Nos conseils</a>
+      <img src="/img/illustration_home.jpg" width="600px" style="margin-top:20px;"/>
+    </div>
   </div>
 </template>
 
 <script>
 
-  import DataBlock from "@/components/data/DataBlock";
-
   export default {
     name: "DashHome",
     layout: 'dashboard',
-    components:{
-      DataBlock,
-    },
   }
 
 </script>

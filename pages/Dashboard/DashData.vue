@@ -1,16 +1,16 @@
 <template>
     <div id="bodyboard">
-      <div id="dashboard">
-        <div v-if="plantData">
-          <h1>Votre plante</h1>
+      <div id="dashboard" v-if="plantData">
+        <h1>Votre plante</h1>
+        <div id="databox">
           <section class="data">
-          <data-block type="temperature" :plant_type="plantData.plant" :plant_data="plantData.data"></data-block>
+            <data-block type="temperature" :plant_type="plantData.plant" :plant_data="plantData.data"></data-block>
           </section>
           <section class="data">
-          <data-block type="ph" :plant_type="plantData.plant" :plant_data="plantData.data"></data-block>
+            <data-block type="humidity" :plant_type="plantData.plant" :plant_data="plantData.data"></data-block>
           </section>
           <section class="data">
-          <data-block type="humidity" :plant_type="plantData.plant" :plant_data="plantData.data"></data-block>
+            <data-block type="ph" :plant_type="plantData.plant" :plant_data="plantData.data"></data-block>
           </section>
         </div>
       </div>
